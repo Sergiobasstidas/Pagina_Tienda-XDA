@@ -1,0 +1,28 @@
+@mixin hover-state-button {
+    border-color: $isabelline;
+    text-decoration: none;
+}
+
+@mixin focus-state-button {
+    color: $quick-silver;
+    border-color: $quick-silver;
+}
+
+@mixin button-size-small {
+    font-family: $raleway;
+    font-size: $x-small;
+    font-weight: $bold;
+    color: $smoky-black;
+    background-color: $white;
+    border: 1px solid $smoky-black;
+    text-decoration: none;
+    padding: 10px 13px;
+}
+@mixin button-size-normal {
+    font-size: $medium;
+    color: $smoky-black;
+    background-color: $white;
+    border: 1px solid $smoky-black;
+    text-decoration: none;
+    padding: 10px 25px;
+}

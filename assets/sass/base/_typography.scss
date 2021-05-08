@@ -1,0 +1,41 @@
+h1 {
+    font-size: $xx-large;
+    font-weight: $bold;
+    font-family: $old-standard;
+    color: $smoky-black;
+    margin: .5em 0 0;
+}
+
+h2 {
+    font-size: $x-large;
+    font-weight: $bold;
+    font-family: $old-standard;
+    margin: .83em 0 0;
+    color: $white;
+    padding-bottom: .2em;
+}
+
+h5 {
+    font-size: $x-large;
+    font-family: $old-standard;
+    font-weight: $bold;
+
+}
+
+p {
+    font-family: $raleway;
+    font-weight: $regular;
+    font-size: $small;
+    line-height: 30px;
+}
+
+
+@media screen and (min-width: $min-md) {
+
+    h1 {
+        font-size: $xxx-large;
+    }
+    h2 {
+        font-size: $xx-large;
+    }    
+}

@@ -1,0 +1,37 @@
+// COLOR SChEME
+// Firts
+$white:  white;
+$isabelline:  #ECECEC;
+$light-gray:  #D1D1D1;
+
+// Second
+$smoky-black: #0C0910;
+$granite-gray: #646266;
+$quick-silver: #A6A5A8;
+
+// FONT FAMILIES
+$old-standard: 'Old Standard TT', serif;
+$raleway: 'Raleway', sans-serif;
+
+// FONT SIZES
+$x-small: 12px;
+$small: 14px;
+$medium: 16px;
+$large: 18px;
+$x-large: 20px;
+$xx-large: 30px;
+$xxx-large: 50px;
+
+// WEIGHTS
+$bold: 700;
+$regular: 400;
+
+// BREAKPOINTS
+
+// MEDIDA DE CELULAR ESTA POR PERDEFECTO, POR LO QUE NO HICE @media para $min-sm
+$min-xs: 320px;
+$min-sm: 576px; //Celular
+$min-md: 768PX; //Tablet
+//tampoco para LPATOP YA QUE NO ESTABA EN LOS REQUERIMIENTOS
+$min-lg: 992PX; //Laptop    
+$min-xl: 1280px;//Desktop

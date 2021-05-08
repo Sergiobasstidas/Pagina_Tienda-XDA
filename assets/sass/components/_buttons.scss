@@ -1,0 +1,48 @@
+.main_info-button {
+    @include button-size-small;
+    
+    &:hover {
+        @include hover-state-button;
+    }
+
+    &:focus {
+        @include focus-state-button;       
+    }
+}
+.footer_subscribir-button {
+    margin: 0;
+    border: none;
+    font-family: $old-standard;
+    background-color: $white;
+    font-size: $medium; 
+    font-weight: $bold;
+    width: 30px;
+    padding: 35px 0px 30px 0;
+    writing-mode: vertical-lr;
+}
+
+@media screen and (min-width: $min-md) {
+    .footer_subscribir-button {
+    padding: 60px 0px 55px 0;
+        width: 30px;
+        font-size: $large;
+    }
+    .main_info-button {
+        @include button-size-normal;
+    }
+        
+}
+
+@media screen and (min-width: $min-xl) {
+    .footer_subscribir-button {
+        padding-top: 60px;
+        width: 33px;
+        height: 192px;
+        margin-left: 100%;
+        padding-right: 100%;
+        font-size: $x-large;
+    }
+    .main_info-button {
+        @include button-size-normal;
+    }
+}

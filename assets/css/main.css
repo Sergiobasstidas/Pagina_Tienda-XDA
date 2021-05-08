@@ -1,0 +1,357 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "Old Standard TT", serif;
+  color: #0C0910;
+  margin: 0.5em 0 0;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Old Standard TT", serif;
+  margin: 0.83em 0 0;
+  color: white;
+  padding-bottom: 0.2em;
+}
+
+h5 {
+  font-size: 20px;
+  font-family: "Old Standard TT", serif;
+  font-weight: 700;
+}
+
+p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 30px;
+}
+
+@media screen and (min-width: 768PX) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+}
+.main_info-button {
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  color: #0C0910;
+  background-color: white;
+  border: 1px solid #0C0910;
+  text-decoration: none;
+  padding: 10px 13px;
+}
+.main_info-button:hover {
+  border-color: #ECECEC;
+  text-decoration: none;
+}
+.main_info-button:focus {
+  color: #A6A5A8;
+  border-color: #A6A5A8;
+}
+
+.footer_subscribir-button {
+  margin: 0;
+  border: none;
+  font-family: "Old Standard TT", serif;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 700;
+  width: 30px;
+  padding: 35px 0px 30px 0;
+  writing-mode: vertical-lr;
+}
+
+@media screen and (min-width: 768PX) {
+  .footer_subscribir-button {
+    padding: 60px 0px 55px 0;
+    width: 30px;
+    font-size: 18px;
+  }
+
+  .main_info-button {
+    font-size: 16px;
+    color: #0C0910;
+    background-color: white;
+    border: 1px solid #0C0910;
+    text-decoration: none;
+    padding: 10px 25px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .footer_subscribir-button {
+    padding-top: 60px;
+    width: 33px;
+    height: 192px;
+    margin-left: 100%;
+    padding-right: 100%;
+    font-size: 20px;
+  }
+
+  .main_info-button {
+    font-size: 16px;
+    color: #0C0910;
+    background-color: white;
+    border: 1px solid #0C0910;
+    text-decoration: none;
+    padding: 10px 25px;
+  }
+}
+.footer_newsletter input {
+  padding: 0.5em;
+  width: 65%;
+  font-family: "Raleway", sans-serif;
+  font-size: 12px;
+  color: #646266;
+}
+
+.box {
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 90% 10%;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .box {
+    grid-template-rows: 220px auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 1200px) {
+  .box {
+    grid-template-rows: 400px auto;
+  }
+}
+@media screen and (min-width: 768PX) {
+  .box {
+    padding-top: 20px;
+  }
+
+  .footer {
+    grid-template-columns: 96% 4%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .box {
+    grid-template-columns: 40% 60%;
+    margin-top: 20px;
+  }
+  .box .main_image {
+    order: 2;
+    height: auto;
+  }
+  .box .info {
+    order: 1;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 82% 18%;
+  }
+}
+.main_image {
+  background-image: url("../../assets/img/main.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.main_info {
+  padding: 20px 20px 40px 20px;
+  margin: 0;
+}
+
+span {
+  display: none;
+}
+
+.footer {
+  background-color: #0C0910;
+  height: 192px;
+}
+
+.footer_newsletter {
+  padding-left: 20px;
+  display: inline-block;
+}
+.footer_newsletter .correo_electronico {
+  color: white;
+  font-family: "Old Standard TT", serif;
+  font-size: 14px;
+}
+.footer_newsletter input {
+  margin: 1em 0 2em 0;
+  font-size: 12px;
+  color: #0C0910;
+}
+
+.footer_subscribir {
+  margin: auto;
+  width: auto;
+}
+
+@media screen and (min-width: 768PX) {
+  .main_info {
+    box-sizing: border-box;
+    padding: 20px 240px 50px 70px;
+  }
+
+  span {
+    display: contents;
+    line-height: 16px;
+  }
+
+  .footer_newsletter {
+    padding: 0 0 60px 70px;
+  }
+  .footer_newsletter .correo_electronico {
+    font-size: 16px;
+  }
+  .footer_newsletter input {
+    margin: 1.5em 0 0 0;
+    display: block;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main_info {
+    box-sizing: border-box;
+    padding: 55px 120px 50px 70px;
+  }
+
+  h1 {
+    font-size: 50px;
+    font-weight: 700;
+    font-family: "Old Standard TT", serif;
+    color: #0C0910;
+    margin: 0.5em 0 0;
+  }
+
+  span {
+    display: contents;
+    line-height: 16px;
+  }
+
+  .footer {
+    height: 192px;
+  }
+
+  .footer_newsletter {
+    padding: 0 0 60px 70px;
+  }
+  .footer_newsletter input {
+    margin: 1.5em 0 0 0;
+    display: block;
+  }
+
+  .correo_electronico {
+    font-size: 16px;
+  }
+}
+.navigation {
+  position: relative;
+}
+
+.navigation__logo {
+  position: absolute;
+  padding: 0.8em 0.5em 0.5em 0.5em;
+  background-color: #0C0910;
+  color: white;
+}
+.navigation__logo h5 {
+  margin: 0;
+}
+
+.collapsible {
+  text-align: right;
+}
+.collapsible label {
+  display: block;
+  padding-top: 0.5em;
+  padding-bottom: 0.4em;
+  padding-right: 1em;
+  font-size: 1.4rem;
+}
+
+#menu {
+  display: none;
+}
+
+input:checked ~ .navigation__container {
+  max-height: 100%;
+}
+
+.navigation__container {
+  max-height: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navigation__list {
+  list-style-type: none;
+}
+
+.navigation__item a {
+  display: block;
+  text-align: left;
+  padding: 0.5em;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration: none;
+  color: #0C0910;
+}
+.navigation__item a:hover {
+  color: #646266;
+}
+
+@media screen and (min-width: 768PX) {
+  .navigation__logo {
+    position: absolute;
+    background-color: #0C0910;
+    color: white;
+    width: 85px;
+    height: 67px;
+  }
+  .navigation__logo h5 {
+    margin: 0;
+    font-size: 30px;
+    padding-left: 8px;
+    padding-top: 15px;
+  }
+
+  .collapsible label {
+    display: none;
+  }
+
+  .navigation__container {
+    max-height: 100%;
+    padding: 0.75em 1em 0 3em;
+    overflow: visible;
+  }
+
+  .navigation__list {
+    display: flex;
+    justify-content: flex-end;
+    padding: inherit;
+    margin: inherit;
+  }
+
+  .navigation__item a {
+    padding: 0.5em 1em;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
