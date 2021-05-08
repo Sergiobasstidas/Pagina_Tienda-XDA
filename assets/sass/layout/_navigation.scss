@@ -45,10 +45,10 @@ input:checked~.navigation__container {
 .navigation__item {
     a {
         display: block;
-        text-align: left;
-        padding: .5em;
+        text-align: right;
+        padding: .5em .8em;
         font-family: $raleway;
-        font-size: $x-large;
+        font-size: $medium;
         font-weight: $bold;
         text-decoration: none;
         color: $smoky-black;

@@ -68,8 +68,8 @@ p {
   background-color: white;
   font-size: 16px;
   font-weight: 700;
-  width: 30px;
-  padding: 35px 0px 30px 0;
+  width: 31px;
+  padding: 35px 0px 33px 0;
   writing-mode: vertical-lr;
 }
 
@@ -124,6 +124,7 @@ p {
 .footer {
   display: grid;
   grid-template-columns: 90% 10%;
+  height: auto;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
@@ -180,7 +181,6 @@ span {
 
 .footer {
   background-color: #0C0910;
-  height: 192px;
 }
 
 .footer_newsletter {
@@ -244,10 +244,6 @@ span {
     line-height: 16px;
   }
 
-  .footer {
-    height: 192px;
-  }
-
   .footer_newsletter {
     padding: 0 0 60px 70px;
   }
@@ -305,10 +301,10 @@ input:checked ~ .navigation__container {
 
 .navigation__item a {
   display: block;
-  text-align: left;
-  padding: 0.5em;
+  text-align: right;
+  padding: 0.5em 0.8em;
   font-family: "Raleway", sans-serif;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 700;
   text-decoration: none;
   color: #0C0910;

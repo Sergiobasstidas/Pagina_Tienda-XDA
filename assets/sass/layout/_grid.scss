@@ -6,6 +6,7 @@
 .footer {
     display: grid;
     grid-template-columns: 90% 10%;
+    height: auto;
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
