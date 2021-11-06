@@ -1,48 +1,51 @@
 .main_info-button {
-    @include button-size-small;
-    
-    &:hover {
-        @include hover-state-button;
-    }
+  @include button-size-small;
 
-    &:focus {
-        @include focus-state-button;       
-    }
+  &:hover {
+    @include hover-state-button;
+  }
+
+  &:focus {
+    @include focus-state-button;
+  }
 }
 .footer_subscribir-button {
-    margin: 0;
-    border: none;
-    font-family: $old-standard;
-    background-color: $white;
-    font-size: $medium; 
-    font-weight: $bold;
-    width: 31px;
-    padding: 35px 0px 33px 0;
-    writing-mode: vertical-lr;
+
+  padding: 10px 60px 10px;
+  height: auto;
+  width: 100%;
+  margin-left: -12px;
+  border: none;
+  font-family: $old-standard;
+  background-color: $white;
+  font-size: $medium;
+  font-weight: $bold;
+  transform: rotate(-90deg);
+
 }
 
 @media screen and (min-width: $min-md) {
-    .footer_subscribir-button {
-    padding: 60px 0px 55px 0;
-        width: 30px;
-        font-size: $large;
-    }
-    .main_info-button {
-        @include button-size-normal;
-    }
-        
+  .footer_subscribir-button {
+    padding: 10px 60px 10px;
+    height: auto;
+    width: 100%;
+    margin-left: -37%;
+    font-size: $large;
+  }
+  .main_info-button {
+    @include button-size-normal;
+  }
 }
 
 @media screen and (min-width: $min-xl) {
-    .footer_subscribir-button {
-        padding-top: 60px;
-        width: 33px;
-        height: 192px;
-        margin-left: 100%;
-        padding-right: 100%;
-        font-size: $x-large;
-    }
-    .main_info-button {
-        @include button-size-normal;
-    }
+  .footer_subscribir-button {
+    padding: 10px 60px 10px;
+    height: auto;
+    width: 100%;
+    margin-left: -12px;
+    font-size: $x-large;
+  }
+  .main_info-button {
+    @include button-size-normal;
+  }
 }
